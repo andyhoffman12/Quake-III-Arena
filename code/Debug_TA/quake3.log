@@ -1,0 +1,92 @@
+﻿Build started 7/25/2013 4:05:38 PM.
+     1>Project "C:\Users\Andy\Documents\GitHub\Quake-III-Arena\code\quake3.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug_TA/" /Fd".\Debug_TA/vc110.pdb" /FR".\Debug_TA/" /Gd /TC /analyze- /errorReport:prompt win32\win_net.c
+         win_net.c
+     1>c:\users\andy\documents\github\quake-iii-arena\code\win32\win_net.c(182): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\andy\documents\github\quake-iii-arena\code\win32\win_net.c(183): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\andy\documents\github\quake-iii-arena\code\win32\win_net.c(184): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\andy\documents\github\quake-iii-arena\code\win32\win_net.c(185): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\andy\documents\github\quake-iii-arena\code\win32\win_net.c(186): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\andy\documents\github\quake-iii-arena\code\win32\win_net.c(187): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\andy\documents\github\quake-iii-arena\code\win32\win_net.c(188): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\andy\documents\github\quake-iii-arena\code\win32\win_net.c(189): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\andy\documents\github\quake-iii-arena\code\win32\win_net.c(190): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\andy\documents\github\quake-iii-arena\code\win32\win_net.c(191): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\andy\documents\github\quake-iii-arena\code\win32\win_net.c(491): warning C4133: 'function' : incompatible types - from 'qboolean *' to 'u_long *'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug_TA/quake3.exe" /INCREMENTAL /NOLOGO winmm.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug_TA/quake3.pdb" /MAP:"Debug_TA/quake3.map" /SUBSYSTEM:WINDOWS /STACK:"8388608" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug_TA\quake3.lib" /MACHINE:X86 /SAFESEH win32\winquake.res
+         .\Debug_TA/cl_cgame.obj
+         .\Debug_TA/cl_cin.obj
+         .\Debug_TA/cl_console.obj
+         .\Debug_TA/cl_input.obj
+         .\Debug_TA/cl_keys.obj
+         .\Debug_TA/cl_main.obj
+         .\Debug_TA/cl_net_chan.obj
+         .\Debug_TA/cl_parse.obj
+         .\Debug_TA/cl_scrn.obj
+         .\Debug_TA/cl_ui.obj
+         .\Debug_TA/cm_load.obj
+         .\Debug_TA/cm_patch.obj
+         .\Debug_TA/cm_polylib.obj
+         .\Debug_TA/cm_test.obj
+         .\Debug_TA/cm_trace.obj
+         .\Debug_TA/cmd.obj
+         .\Debug_TA/common.obj
+         .\Debug_TA/cvar.obj
+         .\Debug_TA/files.obj
+         .\Debug_TA/huffman.obj
+         .\Debug_TA/md4.obj
+         .\Debug_TA/msg.obj
+         .\Debug_TA/net_chan.obj
+         .\Debug_TA/q_math.obj
+         .\Debug_TA/q_shared.obj
+         .\Debug_TA/snd_adpcm.obj
+         .\Debug_TA/snd_dma.obj
+         .\Debug_TA/snd_mem.obj
+         .\Debug_TA/snd_mix.obj
+         .\Debug_TA/snd_wavelet.obj
+         .\Debug_TA/sv_bot.obj
+         .\Debug_TA/sv_ccmds.obj
+         .\Debug_TA/sv_client.obj
+         .\Debug_TA/sv_game.obj
+         .\Debug_TA/sv_init.obj
+         .\Debug_TA/sv_main.obj
+         .\Debug_TA/sv_net_chan.obj
+         .\Debug_TA/sv_snapshot.obj
+         .\Debug_TA/sv_world.obj
+         .\Debug_TA/unzip.obj
+         .\Debug_TA/vm.obj
+         .\Debug_TA/vm_interpreted.obj
+         .\Debug_TA/vm_x86.obj
+         .\Debug_TA/win_input.obj
+         .\Debug_TA/win_main.obj
+         .\Debug_TA/win_net.obj
+         .\Debug_TA/win_shared.obj
+         .\Debug_TA/win_snd.obj
+         .\Debug_TA/win_syscon.obj
+         .\Debug_TA/win_wndproc.obj
+         "C:\Users\Andy\Documents\GitHub\Quake-III-Arena\code\botlib\Debug_TA\botlib.lib"
+         "C:\Users\Andy\Documents\GitHub\Quake-III-Arena\code\renderer\Debug_TA\renderer.lib"
+         "C:\Users\Andy\Documents\GitHub\Quake-III-Arena\code\splines\Debug\Splines.lib"
+         quake3.vcxproj -> C:\Users\Andy\Documents\GitHub\Quake-III-Arena\code\.\Debug_TA\quake3.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o".\Debug_TA\quake3.bsc" .\Debug_TA/cl_cgame.sbr .\Debug_TA/cl_cin.sbr .\Debug_TA/cl_console.sbr .\Debug_TA/cl_input.sbr .\Debug_TA/cl_keys.sbr .\Debug_TA/cl_main.sbr .\Debug_TA/cl_net_chan.sbr .\Debug_TA/cl_parse.sbr .\Debug_TA/cl_scrn.sbr .\Debug_TA/cl_ui.sbr .\Debug_TA/cm_load.sbr .\Debug_TA/cm_patch.sbr .\Debug_TA/cm_polylib.sbr .\Debug_TA/cm_test.sbr .\Debug_TA/cm_trace.sbr .\Debug_TA/cmd.sbr .\Debug_TA/common.sbr .\Debug_TA/cvar.sbr .\Debug_TA/files.sbr .\Debug_TA/huffman.sbr .\Debug_TA/md4.sbr .\Debug_TA/msg.sbr .\Debug_TA/net_chan.sbr .\Debug_TA/q_math.sbr .\Debug_TA/q_shared.sbr .\Debug_TA/snd_adpcm.sbr .\Debug_TA/snd_dma.sbr .\Debug_TA/snd_mem.sbr .\Debug_TA/snd_mix.sbr .\Debug_TA/snd_wavelet.sbr .\Debug_TA/sv_bot.sbr .\Debug_TA/sv_ccmds.sbr .\Debug_TA/sv_client.sbr .\Debug_TA/sv_game.sbr .\Debug_TA/sv_init.sbr .\Debug_TA/sv_main.sbr .\Debug_TA/sv_net_chan.sbr .\Debug_TA/sv_snapshot.sbr .\Debug_TA/sv_world.sbr .\Debug_TA/unzip.sbr .\Debug_TA/vm.sbr .\Debug_TA/vm_interpreted.sbr .\Debug_TA/vm_x86.sbr .\Debug_TA/win_input.sbr .\Debug_TA/win_main.sbr .\Debug_TA/win_net.sbr .\Debug_TA/win_shared.sbr .\Debug_TA/win_snd.sbr .\Debug_TA/win_syscon.sbr .\Debug_TA/win_wndproc.sbr
+       PostBuildEvent:
+         rem bash -c "perl ./unix/cons -- debug-TA"
+         :VCEnd
+     1>Done Building Project "C:\Users\Andy\Documents\GitHub\Quake-III-Arena\code\quake3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.32

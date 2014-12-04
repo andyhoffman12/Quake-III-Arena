@@ -198,7 +198,7 @@ qboolean Sys_StringToSockaddr( const char *s, struct sockaddr *sadr ) {
 			*(int *)&((struct sockaddr_in *)sadr)->sin_addr = inet_addr(s);
 		} else {
 			if( ( h = gethostbyname( s ) ) == 0 ) {
-				return 0;
+				return qfalse;
 			}
 			*(int *)&((struct sockaddr_in *)sadr)->sin_addr = *(int *)h->h_addr_list[0];
 		}

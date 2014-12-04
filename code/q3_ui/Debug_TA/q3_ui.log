@@ -1,0 +1,14 @@
+﻿Build started 7/25/2013 4:05:38 PM.
+     1>Project "C:\Users\Andy\Documents\GitHub\Quake-III-Arena\code\q3_ui\q3_ui.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\Users\Andy\Documents\GitHub\Quake-III-Arena\code\q3_ui\.\Debug_TA\q3_ui.dll) does not match the Linker's OutputFile property value (C:\Users\Andy\Documents\GitHub\Quake-III-Arena\code\Debug_TA\uix86_old.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(q3_ui) does not match the Linker's OutputFile property value (uix86_old). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../Debug_TA/uix86_old.dll" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\ui.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../Debug_TA/ui.pdb" /MAP:"Debug_TA/uix86.map" /TLBID:1 /BASE:"0x40000000" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug_TA/uix86.lib" /MACHINE:X86 /SAFESEH /DLL Debug/ui_syscalls.obj
+     1>ui_syscalls.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>ui.def : error LNK2001: unresolved external symbol vmMain
+     1>Debug_TA/uix86.lib : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\Andy\Documents\GitHub\Quake-III-Arena\code\q3_ui\q3_ui.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.12
